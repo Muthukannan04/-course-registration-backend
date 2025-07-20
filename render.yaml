@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: course-registration-backend
+    env: java
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/*.jar
+    region: singapore
+    branch: master
+    repo: https://github.com/Muthukannan04/-course-registration-backend
