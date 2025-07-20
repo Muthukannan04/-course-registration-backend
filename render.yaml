@@ -3,7 +3,5 @@ services:
     name: course-registration-backend
     env: docker
     repo: https://github.com/Muthukannan04/-course-registration-backend
-    plan: free
     branch: master
-    buildCommand: ./mvnw clean install
-    startCommand: java -jar target/*.jar
+    plan: free
